@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# Local configuration
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Android Captures
+captures/
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Log files
+*.log
+
+# Keystore files (if not shared)
+*.jks
+*.keystore
+
+# Generated files
+*.apk
+*.ap_
+*.aab
+
+# Crashlytics / Firebase
+crashlytics-build.properties
+fabric.properties
+
+# Others (optional)
+*.hprof
