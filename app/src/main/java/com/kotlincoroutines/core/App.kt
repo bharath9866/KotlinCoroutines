@@ -20,6 +20,9 @@ fun App(modifier: Modifier = Modifier) {
         composable<Routes.Home> {
             Home(navController = navHostController)
         }
+        composable("") {
+
+        }
     }
 }
 
